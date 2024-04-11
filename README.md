@@ -13,7 +13,6 @@
 
 - **React**: UI 구성 및 상태 관리
 - **Redux**: 애플리케이션 상태 관리
-- **React Bootstrap**: UI 디자인 컴포넌트 사용
 - **CSS**: 스타일링 (App.css로 스타일링)
 
 ## :globe_with_meridians: 배포
