@@ -1,0 +1,304 @@
+@media screen and (max-width: 1920px) {
+  .ContactApp .Title {
+    padding: 3rem 0;
+  }
+  .ContactApp .ContactWrap {
+    width: 80%;
+    height: 70%;
+  }
+  /* ContactForm */
+  .ContactApp .ContactWrap .ContactForm .FormTitle {
+    font-size: 1.6rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle span {
+    font-size: 1.4rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form input {
+    width: 60%;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form button {
+    font-size: 1.4rem;
+  }
+  /* ContactList */
+  .ContactApp .ContactWrap .ContactList .ListTitle {
+    font-size: 1.6rem;
+  }
+  .ContactApp .ContactWrap .ContactList .ListTitle span {
+    font-size: 1.4rem;
+  }
+  .ContactApp .ContactWrap .ContactList .SearchBox input {
+    width: 60%;
+  }
+  .ContactApp .ContactWrap .ContactList .SearchBox button {
+    font-size: 1.4rem;
+  }
+  /* contact_list */
+  .ContactApp .ContactWrap .ContactList .contact_list {
+    width: 100%;
+    height: 240px;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    height: 210px;
+  }
+}
+@media screen and (max-width: 1114px) {
+  .ContactApp .ContactWrap .ContactForm {
+    padding: 2rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle {
+    font-size: 1.4rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle span {
+    font-size: 1.2rem;
+  }
+  /* ContactList */
+  .ContactApp .ContactWrap .ContactList {
+    padding: 2rem;
+  }
+  .ContactApp .ContactWrap .ContactList .ListTitle {
+    font-size: 1.4rem;
+  }
+  .ContactApp .ContactWrap .ContactList .ListTitle span {
+    font-size: 1.2rem;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list {
+    height: 180px;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    height: 150px;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .ContactApp {
+    background-position: right;
+  }
+  .ContactApp .ContactWrap {
+    height: 75%;
+    flex-direction: column;
+  }
+  .ContactApp .ContactWrap .ContactForm,
+  .ContactApp .ContactWrap .ContactList {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .ContactApp .ContactWrap .ContactList .SearchBox {
+    margin-bottom: 1rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form input::placeholder,
+  .ContactApp .ContactWrap .ContactList .SearchBox input::placeholder {
+    text-align: center;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form button,
+  .ContactApp .ContactWrap .ContactList .SearchBox button {
+    width: 60%;
+    margin: 1rem auto 0;
+    border-radius: 2rem;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list {
+    height: 130px;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .listTop {
+    justify-content: end;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    border: 3px dashed #87ceeb;
+    padding: 1rem;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    background: #ffffff;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: #cef1ff;
+    box-shadow: 2px 2px 0px #54a6c7, inset 0 0 5px #54a6c7;
+  }
+}
+@media screen and (max-width: 834px) {
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    text-align-last: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ContactApp .ContactWrap .ContactList .contact_list {
+    height: 110px;
+    border: 1px solid #000;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    width: 95%;
+    height: 70px;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    padding: 0.3rem 0.8rem;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem
+    .ImgWrap {
+    width: 35px;
+    height: 35px;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem
+    .ContactItemData {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem
+    .ContactItemData
+    h5 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 430px) {
+  .ContactApp {
+    height: auto;
+    padding: 2rem 0;
+    background-position: center;
+  }
+  .ContactApp .Title {
+    margin-bottom: 1.5rem;
+    padding: 0;
+    font-size: 3.2rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle,
+  .ContactApp .ContactWrap .ContactList .ListTitle {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle span,
+  .ContactApp .ContactWrap .ContactList .ListTitle span {
+    display: none;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form input,
+  .ContactApp .ContactWrap .ContactList .SearchBox input,
+  .ContactApp .ContactWrap .ContactForm .Form button,
+  .ContactApp .ContactWrap .ContactList .SearchBox button {
+    width: 80%;
+  }
+  .ContactApp .ContactWrap .ContactForm .Form button,
+  .ContactApp .ContactWrap .ContactList .SearchBox button {
+    margin: auto;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list {
+    height: auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .listTop {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+    height: 150px;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+    background: #f3f3f3;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 0px #cacaca, inset 0 0 5px #dbdbdb;
+    gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem {
+    gap: 1rem;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem
+    .ContactItemData {
+    display: block;
+  }
+  .ContactApp
+    .ContactWrap
+    .ContactList
+    .contact_list
+    .contactItemWrap
+    .ContactItem
+    .ContactItemData
+    h5 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .ContactApp .ContactWrap {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ContactApp .Title {
+    font-size: 2.6rem;
+  }
+  .ContactApp .ContactWrap .ContactForm .FormTitle,
+  .ContactApp .ContactWrap .ContactList .ListTitle {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,313 @@
+/* font */
+/* gaegu */
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap");
+
+/* biorhyme */
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap");
+
+/* utoImage */
+@import url("https://webfontworld.github.io/utoImagegothic/UtoImageGothic.css");
+
+/* GoYangIlSan */
+@import url("https://webfontworld.github.io/goyang/GoYangIlSan.css");
+
+:root {
+  --font-cali: "Gaegu", sans-serif;
+  --font-en: "BioRhyme", serif;
+  --font-kr: "GoYangIlSan";
+  --font-kr-cali: "UtoImageGothic";
+}
+
+body {
+  font-family: var(--font-kr);
+}
+.ContactApp {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url("../assets/Images/contactBG5.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.ContactApp .Title {
+  padding: 5rem 0;
+  font-family: var(--font-cali);
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+  color: #000274;
+  text-align: center;
+}
+.ContactApp .ContactWrap {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+/* ContactForm */
+.ContactApp .ContactWrap .ContactForm {
+  width: 50%;
+  padding: 3rem;
+  background: #07338590;
+  box-shadow: inset 0 0 15px #294272;
+  border-radius: 1rem;
+  color: #fff;
+}
+.ContactApp .ContactWrap .ContactForm .FormTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.ContactApp .ContactWrap .ContactForm .FormTitle span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.ContactApp .ContactWrap .ContactForm .Form label {
+  font-size: 1.2rem;
+  font-family: var(--font-en);
+}
+.ContactApp .ContactWrap .ContactForm .Form {
+  line-height: 2;
+}
+.ContactApp .ContactWrap .ContactForm .Form input {
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.3rem;
+}
+.ContactApp .ContactWrap .ContactForm .Form input::-webkit-outer-spin-button,
+.ContactApp .ContactWrap .ContactForm .Form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ContactApp .ContactWrap .ContactForm .Form input::placeholder {
+  color: #888;
+}
+.ContactApp .ContactWrap .ContactForm .Form input:focus {
+  outline: 2px solid #000274;
+}
+.ContactApp .ContactWrap .ContactForm .Form input:focus::placeholder {
+  color: transparent;
+}
+.ContactApp .ContactWrap .ContactForm .Form button {
+  width: 30%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #000274;
+  color: #fff;
+  font-family: var(--font-cali);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+  cursor: pointer;
+}
+.ContactApp .ContactWrap .ContactForm .Form button:hover {
+  background: #000135;
+}
+.ContactApp .ContactWrap .ContactForm .Form button span {
+  font-size: 1rem;
+}
+
+/* ContactList */
+.ContactApp .ContactWrap .ContactList {
+  width: 50%;
+  padding: 3rem;
+  background: #ffffff90;
+  box-shadow: inset 0 0 10px #cecbbc;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.ContactApp .ContactWrap .ContactList .ListTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #054195;
+}
+.ContactApp .ContactWrap .ContactList .ListTitle span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox {
+  margin-bottom: 2rem;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox input {
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.3rem;
+  background: #e6e6e6;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox input:focus {
+  outline: 2px solid #4f90aa;
+  background: #fff;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox input:focus::placeholder {
+  color: transparent;
+}
+
+.ContactApp .ContactWrap .ContactList .SearchBox button {
+  width: 30%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #000274;
+  color: #fff;
+  font-family: var(--font-cali);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox button:hover {
+  background: #000135;
+}
+.ContactApp .ContactWrap .ContactList .SearchBox button img {
+  width: 20px;
+}
+
+.ContactApp .ContactWrap .ContactList .contact_list {
+  width: 100%;
+  height: 270px;
+}
+.ContactApp .ContactWrap .ContactList .contact_list .listTop {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ContactApp .ContactWrap .ContactList .contact_list button {
+  padding: 0.2rem 0.5rem;
+  background: #add8e6;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  color: #000274;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.ContactApp .ContactWrap .ContactList .contact_list button:hover {
+  background: #1b89ad;
+  color: #fff;
+}
+.ContactApp .ContactWrap .ContactList .contact_list .listTop h6 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #294272;
+}
+.ContactApp .ContactWrap .ContactList .contact_list .contactItemWrap {
+  width: 100%;
+  height: 240px;
+  margin-top: 0.5rem;
+  padding: 0 0.8rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  border: 1px solid skyblue;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap::-webkit-scrollbar {
+  width: 15px;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #2a6fcf;
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px rgb(80, 110, 187), inset 0 0 10px rgb(72, 102, 177),
+    0 3px 5px #1b2d5c;
+  cursor: grabbing;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap::-webkit-scrollbar-track {
+  background: #d7e6f0;
+  box-shadow: inset 0 0 5px #6d9ebe;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem {
+  padding: 1rem 0;
+  border-bottom: 2px dotted #888;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem:last-child {
+  border: none;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem
+  .ImgWrap {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #054195;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 0 #054195;
+  overflow: hidden;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem
+  .ImgWrap
+  img {
+  width: 100%;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem
+  .ContactItemData
+  h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000274;
+}
+.ContactApp
+  .ContactWrap
+  .ContactList
+  .contact_list
+  .contactItemWrap
+  .ContactItem
+  .ContactItemData
+  p {
+  font-weight: 600;
+  color: #888;
+}
